@@ -20,3 +20,11 @@ public class starpattern2 {
 	
 
 }
+/*
+output
+n=4
+      *
+    * *
+  * * *
+* * * *
+*/
