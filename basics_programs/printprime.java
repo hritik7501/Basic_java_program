@@ -4,19 +4,20 @@ public class printprime {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		for(int i=2;i<=n;i++) {
-			boolean isprime=true;
-			for(int j=1;j<=i/2;j++) {
-				if(i%j==0) {
-					isprime=false;
-				}
-			}
-			if(isprime==true)
-				System.out.println(i);
+		int flag=0;
+		for(int i=2;i<=n/2;i++) {
+			if(n%i==0)
+				flag=1;
+		}
+		if(flag==1)
+			System.out.println("no is not prime");
+		else
+			System.out.println("no is prime");
+			
 		}
 		
 	}
 	
-}
+
 
 
