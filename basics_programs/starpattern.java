@@ -15,5 +15,10 @@ public class starpattern {
     }
 
 	}
-
-
+/*
+output n=4
+*
+* *
+* * *
+* * * *
+*/
